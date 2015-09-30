@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A76D6A81BBB91240023B940 /* XSAssetsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A76D6A71BBB91240023B940 /* XSAssetsViewCell.m */; };
+		1A76D6AB1BBBB1E80023B940 /* XSAssetsGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A76D6AA1BBBB1E80023B940 /* XSAssetsGroupsViewController.m */; };
 		1AC5D68E1BBA294B007217ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5D68D1BBA294B007217ED /* main.m */; };
 		1AC5D6911BBA294B007217ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5D6901BBA294B007217ED /* AppDelegate.m */; };
 		1AC5D6941BBA294B007217ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5D6931BBA294B007217ED /* ViewController.m */; };
-		1AC5D6971BBA294B007217ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC5D6951BBA294B007217ED /* Main.storyboard */; };
 		1AC5D6991BBA294B007217ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC5D6981BBA294B007217ED /* Images.xcassets */; };
 		1AC5D69C1BBA294B007217ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC5D69A1BBA294B007217ED /* LaunchScreen.xib */; };
 		1AC5D6A81BBA294B007217ED /* XSAssetPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5D6A71BBA294B007217ED /* XSAssetPickerTests.m */; };
+		1AC5D6B31BBA6174007217ED /* XSAssetPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5D6B21BBA6174007217ED /* XSAssetPickerViewController.m */; };
+		1AC5D6B61BBA6DDC007217ED /* XSAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5D6B51BBA6DDC007217ED /* XSAssetsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A76D6A61BBB91240023B940 /* XSAssetsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSAssetsViewCell.h; sourceTree = "<group>"; };
+		1A76D6A71BBB91240023B940 /* XSAssetsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSAssetsViewCell.m; sourceTree = "<group>"; };
+		1A76D6A91BBBB1E80023B940 /* XSAssetsGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSAssetsGroupsViewController.h; sourceTree = "<group>"; };
+		1A76D6AA1BBBB1E80023B940 /* XSAssetsGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSAssetsGroupsViewController.m; sourceTree = "<group>"; };
+		1A76D6AC1BBBC01B0023B940 /* XSConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSConfig.h; sourceTree = "<group>"; };
 		1AC5D6881BBA294A007217ED /* XSAssetPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSAssetPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC5D68C1BBA294A007217ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AC5D68D1BBA294B007217ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +42,15 @@
 		1AC5D6901BBA294B007217ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1AC5D6921BBA294B007217ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1AC5D6931BBA294B007217ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1AC5D6961BBA294B007217ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AC5D6981BBA294B007217ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AC5D69B1BBA294B007217ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1AC5D6A11BBA294B007217ED /* XSAssetPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSAssetPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC5D6A61BBA294B007217ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AC5D6A71BBA294B007217ED /* XSAssetPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAssetPickerTests.m; sourceTree = "<group>"; };
+		1AC5D6B11BBA6174007217ED /* XSAssetPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSAssetPickerViewController.h; sourceTree = "<group>"; };
+		1AC5D6B21BBA6174007217ED /* XSAssetPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSAssetPickerViewController.m; sourceTree = "<group>"; };
+		1AC5D6B41BBA6DDC007217ED /* XSAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSAssetsViewController.h; sourceTree = "<group>"; };
+		1AC5D6B51BBA6DDC007217ED /* XSAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSAssetsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +96,15 @@
 				1AC5D6901BBA294B007217ED /* AppDelegate.m */,
 				1AC5D6921BBA294B007217ED /* ViewController.h */,
 				1AC5D6931BBA294B007217ED /* ViewController.m */,
-				1AC5D6951BBA294B007217ED /* Main.storyboard */,
+				1A76D6AC1BBBC01B0023B940 /* XSConfig.h */,
+				1AC5D6B11BBA6174007217ED /* XSAssetPickerViewController.h */,
+				1AC5D6B21BBA6174007217ED /* XSAssetPickerViewController.m */,
+				1A76D6A61BBB91240023B940 /* XSAssetsViewCell.h */,
+				1A76D6A71BBB91240023B940 /* XSAssetsViewCell.m */,
+				1AC5D6B41BBA6DDC007217ED /* XSAssetsViewController.h */,
+				1AC5D6B51BBA6DDC007217ED /* XSAssetsViewController.m */,
+				1A76D6A91BBBB1E80023B940 /* XSAssetsGroupsViewController.h */,
+				1A76D6AA1BBBB1E80023B940 /* XSAssetsGroupsViewController.m */,
 				1AC5D6981BBA294B007217ED /* Images.xcassets */,
 				1AC5D69A1BBA294B007217ED /* LaunchScreen.xib */,
 				1AC5D68B1BBA294A007217ED /* Supporting Files */,
@@ -199,7 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC5D6971BBA294B007217ED /* Main.storyboard in Resources */,
 				1AC5D69C1BBA294B007217ED /* LaunchScreen.xib in Resources */,
 				1AC5D6991BBA294B007217ED /* Images.xcassets in Resources */,
 			);
@@ -219,8 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC5D6B31BBA6174007217ED /* XSAssetPickerViewController.m in Sources */,
 				1AC5D6941BBA294B007217ED /* ViewController.m in Sources */,
 				1AC5D6911BBA294B007217ED /* AppDelegate.m in Sources */,
+				1AC5D6B61BBA6DDC007217ED /* XSAssetsViewController.m in Sources */,
+				1A76D6A81BBB91240023B940 /* XSAssetsViewCell.m in Sources */,
+				1A76D6AB1BBBB1E80023B940 /* XSAssetsGroupsViewController.m in Sources */,
 				1AC5D68E1BBA294B007217ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +266,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1AC5D6951BBA294B007217ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AC5D6961BBA294B007217ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1AC5D69A1BBA294B007217ED /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +430,7 @@
 				1AC5D6AD1BBA294B007217ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AC5D6AE1BBA294B007217ED /* Build configuration list for PBXNativeTarget "XSAssetPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				1AC5D6B01BBA294B007217ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
